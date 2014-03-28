@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/plugins/SelectTools" >
+        <file>tools/icons/SelectAll.png</file>
+	<file>tools/icons/SelectInverse.png</file>
+	<file>tools/icons/pienocampo.png</file>
+
+    </qresource>
+</RCC>

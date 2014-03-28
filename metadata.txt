@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=SelectTools
+qgisMinimumVersion=2.0
+description=Extra selection feature for vector layers: select all and inverse selection, these functions are available from table menu but if you want do it without accessing the layer's table, you can do it directly from two icons in a personal toolbar or by Selectools own menu (menu bar).
+version=SelectTools 0.2
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+# changelog=
+
+# tags are comma separated with spaces allowed
+tags=vector, select
+
+homepage=https://www.pienocampo.it/pyqgis2
+tracker=http://hub.qgis.org/projects/selectools01/issues
+repository=https://github.com/demarcog/SelectTools.git
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
+# Author contact information
+author=Giuseppe De Marco
+email=demarco.giuseppe@gmail.com
